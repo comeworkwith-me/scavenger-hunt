@@ -3,7 +3,7 @@
 Scavenger Hunt is a NFT scavenger game on Solana. The first 10 users to complete the hunt will recieve a POAP on the Solana blockchain.
 <br></br>
 
-![Scavenger Hunt](https://github.com/comeworkwith-me/solana-react-scaffold/blob/main/public/solana%20react%20scaffold.png?raw=true)
+![Scavenger Hunt](https://github.com/comeworkwith-me/scavenger-hunt/blob/main/public/Screenshot%202023-04-16%20225612.png?raw=true)
 <br></br>
 
 # 🛠️ HOW IT'S MADE
@@ -13,7 +13,7 @@ Tech Stack: CSS, React, Next, Solana Wallet Adapter, thirdweb Solana SDK
 
 I built this project leveraging next.js. I added the Solana Wallet Adapter and thirdweb Solana SDK to create this NFT scavenger hunt as a complementary example to my Sol.Ladies Hacker House workshop titled Gamifying Solana NFT Drops.
 
-![Scavenger Hunt](https://github.com/comeworkwith-me/solana-react-scaffold/blob/main/public/solana%20react%20scaffold.png?raw=true)
+![Scavenger Hunt](https://github.com/comeworkwith-me/scavenger-hunt/blob/main/public/Gamifying%20Solana%20NFT%20Drops%20-%20Workshop.png?raw=true)
 
 <br></br>
 
@@ -23,7 +23,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <br></br>
 
 ### 👯 CLONE THE REPO
-- On GitHub.com, navigate to the main page of the [repository](https://github.com/comeworkwith-me/solana-react-scaffold).
+- On GitHub.com, navigate to the main page of the [repository](https://github.com/comeworkwith-me/scavenger-hunt).
 - Above the list of files, click `Code`.
 - Copy the URL for the repository.
 - Open your Node.js terminal.
