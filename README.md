@@ -1,22 +1,19 @@
-# ✨ Solana React Scaffold
+# ✨ Scavenger Hunt
 
-Solana React Scaffold is a simple boilerplate to easily get started with a frontend client UI that connects to the Solana blockchain.
+Scavenger Hunt is a NFT scavenger game on Solana. The first 10 users to complete the hunt will recieve a POAP on the Solana blockchain.
 <br></br>
 
-![Solana React Scaffold](https://github.com/comeworkwith-me/solana-react-scaffold/blob/main/public/solana%20react%20scaffold.png?raw=true)
+![Scavenger Hunt](https://github.com/comeworkwith-me/solana-react-scaffold/blob/main/public/solana%20react%20scaffold.png?raw=true)
 <br></br>
 
 # 🛠️ HOW IT'S MADE
 
-Tech Stack: CSS, React, Next, Solana Wallet Adapter, Web3.js
+Tech Stack: CSS, React, Next, Solana Wallet Adapter, thirdweb Solana SDK
 <br></br>
 
-I built this project leveraging next.js. I added the Solana Wallet Adapter and web3.js to create the following scaffold features:
+I built this project leveraging next.js. I added the Solana Wallet Adapter and thirdweb Solana SDK to create this NFT scavenger hunt as a complementary example to my Sol.Ladies Hacker House workshop titled Gamifying Solana NFT Drops.
 
-- Simple Transaction Component
-- Wallet Integration
-- Navigation Pages
-- Simple Styling
+![Scavenger Hunt](https://github.com/comeworkwith-me/solana-react-scaffold/blob/main/public/solana%20react%20scaffold.png?raw=true)
 
 <br></br>
 
