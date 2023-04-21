@@ -4,10 +4,8 @@ import { useWallet } from "@solana/wallet-adapter-react";
 import { useProgram, useClaimNFT } from "@thirdweb-dev/react/solana";
 import {
   WalletMultiButton,
-  WalletDisconnectButton,
 } from "@solana/wallet-adapter-react-ui";
 import { useState } from "react";
-import Link from "next/link";
 import styles from "@/styles/poap.module.css";
 
 export function Poap() {
@@ -16,7 +14,7 @@ export function Poap() {
   const wallet = useWallet();
   const programAddress = "KRT6aRUQvZo3mewCFjAvrdqDXH5iFLd4N1B3we6cE2c";
   const { program } = useProgram(programAddress, "nft-drop");
-  const { mutateAsync: claim, isLoading, error } = useClaimNFT(program);
+  const { mutateAsync: claim, isLoading} = useClaimNFT(program);
 
   return (
     <div>

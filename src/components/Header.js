@@ -28,7 +28,7 @@ export function Header() {
         </h1>
 
         <p className={styles.popup}>
-          You're very close! Something's hiding near here.
+          You&apos;re very close! Something&apos;s hiding near here.
         </p>
 
         <Image
@@ -60,12 +60,12 @@ export function Header() {
               <h2>Creator:Ekin</h2>
             </div>
             <div className={styles.card_about}>
-              <p>Description:You can’t have a bad day in polka dots.</p>
+              <p>Description:You can&apos;t have a bad day in polka dots.</p>
             </div>
             <div className={styles.card_clue}>
               <p>
                 <br />
-                🐍 2/3:Something's lurking near the water... what could it be?
+                🐍 2/3:Something&apos;s lurking near the water... what could it be?
               </p>
               <br />
               <Link className={styles.card_link} href="/play">Go Swim & Find Out!</Link>

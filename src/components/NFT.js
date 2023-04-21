@@ -33,7 +33,7 @@ export function NFTIcon() {
             <div className={styles.card_clue}>
               <p>
                 <br />
-                🦁 1/3: I'll give you this freebie to start, but you're on your own
+                🦁 1/3: I&apos;ll give you this freebie to start, but you&apos;re on your own
                 from here. Try hunting around the home page and see what jumps
                 out!
               </p>
