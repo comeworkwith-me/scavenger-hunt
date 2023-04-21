@@ -1,7 +1,123 @@
 .header {
-    margin-top: 100px;
-    color: #ffffff;
-    font-family: 'Overpass', sans-serif;
-    font-size: 3rem;
-    text-align: center;
+  margin-top: 140px;
+  color: #4c008a;
+  text-align: center;
+  font-family: var(--jungle-font);
+  font-size: 110px;
+  height: auto;
+  position: sticky;
+  background: linear-gradient(to right, #5103e2, #003261, #037089);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer
+}
+
+.background {
+  z-index: -1;
+  position: fixed;
+}
+
+.credit {
+  position: absolute;
+  flex-direction: column;
+  text-align: right;
+  top: 700px;
+  left: 1200px;
+}
+
+.card {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  border: 10px solid transparent;
+  padding: 15px;
+  border-color: #4c008a;
+  border-radius: 8px;
+  border-width: 5px;
+  backdrop-filter: blur(5px);
+}
+
+.card_image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 25px #5b5b5b;
+}
+
+.card_description {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 300px;
+  height: 130px;
+  background-image: linear-gradient(to right, #4c008a, #746ffa9a, #f83def);
+  border-radius: 8px;
+  box-shadow: 0px 5px 25px #5b5b5b;
+  font-family: var(--press-font);
+  line-height: 15px;
+  color: #98c3ff;
+  text-transform: uppercase;
+}
+
+.card_header {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10px;
+}
+
+.card_about {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 9px;
+}
+
+.card_clue {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 9px;
+  color: #98c3ff;
+}
+
+.card_link {
+  color: #f83def;
+}
+
+.popup {
+  display: none;
+}
+
+.header:hover + .popup {
+  font-family: var(--press-font);
+  font-size: 8px;
+  position: absolute;
+  left: 490px;
+  top: 247px;
+  display: block;
+  color: #98c3ff;
+  background-color: #746ffa9a;
+  padding: 5px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.header:hover {
+  color: rgba(0, 0, 0, 0);
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
 }

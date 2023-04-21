@@ -1,35 +1,39 @@
 .navigation {
-  width: 87rem;
-  overflow: hidden;
-  background-color: #fffbfb48;
-  font-family: 'Overpass', sans-serif;
-}
-
-.navigation_items {
-  padding: 0.5rem;
-  float: right;
-}
-
-.page_links {
-  list-style-type: none;
-  color: #ffffff;
+  padding-top: 175px;
 }
 
 .links {
-  float: left;
+  float: center;
+  list-style-type: none;
+  color: #98c3ff;
+  font-family: var(--press-font);
+  text-transform: uppercase;
+  line-height: 25px;
+  font-size: 1rem;
 }
 
 .links a {
   display: block;
-  padding: 14px 16px;
   text-align: center;
   text-decoration: none;
 }
 
 .links a:hover {
-  background-color: #fa966f9a;
+  color: #f4f4f49a;
 }
 
 .button {
-  background-color: #fa966f9a;
+  background-color: #746ffa9a;
+  font-family: var(--press-font);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #98c3ff;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.button a:hover {
+  color: #f4f4f49a;
 }

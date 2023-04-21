@@ -1,0 +1,55 @@
+.play_background {
+  z-index: -1;
+  position: fixed;
+}
+
+.play_header {
+  font-family: var(--press-font);
+  margin-top: 100px;
+  color: #98c3ff;
+  text-align: center;
+  font-size: 30px;
+  height: auto;
+  position: sticky;
+  text-transform: uppercase;
+}
+
+.play_rules {
+  background-color: #98c3ff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 500px;
+  border-radius: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: var(--press-font);
+  font-size: 10px;
+  line-height: 30px;
+}
+
+.challenger {
+  color: #7814f29a;
+}
+
+.button {
+  background-color: #7814f29a;
+  font-family: var(--press-font);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #98c3ff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  position: absolute;
+  left: 640px;
+  top: 530px;
+}
+
+.button a:hover {
+  color: #f4f4f49a;
+}
